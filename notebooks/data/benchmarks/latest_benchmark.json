@@ -1,0 +1,18 @@
+{
+  "benchmark_batch": "notebook_audit_v1",
+  "total_records_ingested": 1940,
+  "ground_truth_clean": 1800,
+  "ground_truth_injected_defects": 140,
+  "defects_quarantined_by_framework": 141,
+  "defects_escaped": 0,
+  "defect_detection_recall_pct": 100.71,
+  "unvalidated_reporting_error_rate_pct": 7.22,
+  "post_validation_reporting_error_rate_pct": 0.0,
+  "reporting_error_reduction_pct": 100.0,
+  "breakdown": {
+    "duplicates_caught": 66,
+    "fuzzy_duplicates_caught": 1,
+    "metadata_errors_caught": 45,
+    "anomalies_caught": 30
+  }
+}
